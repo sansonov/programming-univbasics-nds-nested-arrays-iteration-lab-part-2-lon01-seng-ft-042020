@@ -9,7 +9,7 @@ def find_min_in_nested_arrays(src)
     y = 0
     a = nil
     while y < src[x].length do
-      if a === nil || a > src[x][y]
+      if a == nil || a > src[x][y]
         a = src[x][y]
         low.push(a)
         #binding.pry
