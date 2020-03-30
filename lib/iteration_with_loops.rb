@@ -12,9 +12,6 @@ def find_min_in_nested_arrays(src)
       if a > src[x][y]
         a = src[x][y]
         low.push(a)
-        if x === 0 && y === 0 
-          low.unshift(a)
-        end
         #binding.pry
       end
       y+=1
