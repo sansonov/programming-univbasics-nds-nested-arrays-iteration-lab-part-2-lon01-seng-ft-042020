@@ -3,10 +3,12 @@ def find_min_in_nested_arrays(src)
   # Produce a new Array that contains the smallest number of each of the nested arrays
 
   x = 0
+  a = -1000000
+  low = []
   while x < src.length do
     y = 0
     while y < src[x].length do
-      
+      if
     end
    end
 end
