@@ -4,12 +4,12 @@ def find_min_in_nested_arrays(src)
   # Produce a new Array that contains the smallest number of each of the nested arrays
 
   x = 0
-  a = 15
   low = []
   while x < src.length do
     y = 0
+    a = nil
     while y < src[x].length do
-      if a > src[x][y]
+      if a === nil || a > src[x][y]
         a = src[x][y]
         low.push(a)
         #binding.pry
